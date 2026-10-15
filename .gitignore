@@ -1,0 +1,45 @@
+# Project directories excluded from the public repository
+/mobile/
+/docs/
+/tests/
+
+# Local secrets and environment files
+.env
+.env.*
+!.env.example
+
+# Local databases and runtime logs
+*.db
+*.sqlite
+*.sqlite3
+*.log
+
+# Python caches and virtual environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+.mypy_cache/
+.ruff_cache/
+.tox/
+htmlcov/
+.coverage
+coverage.xml
+*.egg-info/
+
+# Generated database backups
+/backups/
+
+# Frontend and mobile build artifacts
+node_modules/
+dist/
+build/
+.flutter-home/
+
+# IDE and operating system files
+.idea/
+.vscode/
+.claude/settings.local.json
+.DS_Store
+Thumbs.db

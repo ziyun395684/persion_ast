@@ -1,0 +1,17 @@
+[project]
+name = "banban-app"
+version = "1.0.0"
+description = "伴办 AI assistant mobile client"
+requires-python = ">=3.12"
+
+[tool.flet]
+product = "伴办"
+org = "com.example"
+bundle_id = "com.example.banban"
+
+[tool.flet.android.permission]
+"android.permission.INTERNET" = true
+"android.permission.RECORD_AUDIO" = true
+
+[tool.flet.android.manifest_application]
+usesCleartextTraffic = "true"
